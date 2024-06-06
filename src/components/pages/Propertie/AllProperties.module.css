@@ -1,0 +1,99 @@
+.propertie_header {
+  margin-bottom: 2em;
+}
+
+.propertie_header h1 {
+  margin-bottom: .3em;
+}
+
+.propartie_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.propertie_card {
+  width: 22%;
+  margin: 1.5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.propertie_card_image {
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  width: 100%;
+  margin-bottom: 1.2em;
+}
+
+.propertie_card h3 {
+  color: #16479D;
+  margin-bottom: 1em;
+  font-size: 1.6em;
+  padding: 8px;
+}
+
+.propertie_card a {
+  text-decoration: none;
+  background-color: #16479d;
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.propertie_card a:hover {
+  background-color: #007bff;
+}
+
+.propertie_text {
+  color: #007bff;
+  font-weight: bold;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .propertie_card {
+    width: 45%;
+    margin: 2.5%;
+  }
+
+  .propertie_card h3 {
+    font-size: 1.4em;
+  }
+
+  .propertie_card a {
+    padding: 12px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 600px) {
+  .propertie_card {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  .propertie_card_image {
+    height: 200px;
+  }
+
+  .propertie_card h3 {
+    font-size: 1.2em;
+  }
+
+  .propertie_card a {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+
+  .propertie_text {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+}

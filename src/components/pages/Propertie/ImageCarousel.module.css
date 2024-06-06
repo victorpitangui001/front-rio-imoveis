@@ -1,0 +1,8 @@
+.carousel_image {
+  width: 100%; /* Ajusta a largura para preencher o contêiner do carrossel */
+  max-width: 300px; /* Define um tamanho máximo */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Ajusta a imagem para cobrir o elemento sem distorcer */
+  border-radius: 8px; /* Opcional: adicionar bordas arredondadas */
+  margin: 0 auto; /* Centraliza a imagem dentro do contêiner */
+}

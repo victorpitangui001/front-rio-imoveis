@@ -1,0 +1,41 @@
+.propertie_details_container {
+  text-align: center;
+}
+
+.propertie_details_container p {
+  margin-bottom: 1em;
+}
+
+.propertie_details_header {
+  margin-bottom: 2em;
+}
+/*
+.propertie_images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.propertie_images img {
+  max-height: 200px;
+  margin-right: 1em;
+}
+
+*/
+
+
+.propertie_details_container button {
+  text-decoration: none;
+  background-color: #16479d;
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.1em;
+  margin: 2em;
+  max-width: 200px;
+  min-height: 2.5em;
+}
