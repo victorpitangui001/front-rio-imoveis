@@ -18,7 +18,7 @@ function AddPropertie() {
   async function registerPropertie(propertie) {
     let msgType = 'success'
 
-    const formData = new FormData
+    const formData = new FormData()
 
     await Object.keys(propertie).forEach((key) =>{
       if(key === 'images') {
