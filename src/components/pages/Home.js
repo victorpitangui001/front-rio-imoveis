@@ -40,7 +40,7 @@ function Home() {
                         <p><i className="fa fa-check text-primary me-3"></i>Receba atendimento personalizado.</p>
                         <p><i className="fa fa-check text-primary me-3"></i>Encontre o imóvel dos seus sonhos com preços
                             imperdíveis.</p>
-                        <a className="btn btn-primary py-3 px-5 mt-3" href="/">Consulte mais informações.</a>
+                            <a className="btn btn-primary py-3 px-5 mt-3 fw-bold" href="https://wa.me/5521970826231?text=Olá%20gostaria%20de%20mais%20informações" target="_blank" rel="noreferrer">Consulte mais informações.</a>
                     </div>
                 </div>
             </div>

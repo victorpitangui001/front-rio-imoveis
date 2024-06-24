@@ -61,7 +61,7 @@ function PropertieDetails() {
             <span className='bold'>Bairro:</span> {propertie.bairro}
           </p>
           {token ? (
-            <button onClick={schedule}>Solicitar uma visita</button>
+            <button onClick={schedule}><a href={`https://wa.me/5521970826231?text=%20gostaria%20de%20mais%20informações%20sobre%20a%20propiedade%20${propertie.type}%20situada%20na%20rua%20${propertie.rua}%20`} target="_blank" rel="noreferrer">Clicar</a></button>
           ) : (
             <p>Você precisa <Link to='/register'>Criar uma conta</Link> para solicitar uma visita.</p>
           )}
